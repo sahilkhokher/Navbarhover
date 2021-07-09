@@ -1,0 +1,78 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+:root{
+   --navbar-height: 59px;
+   background-color: rgb(247, 205, 247);
+}
+ 
+/* Navigation Bar */ 
+#navbar{
+    display: flex; 
+    align-items: center; 
+     
+    
+}
+
+/* Navigation Bar: Logo and Image */
+#Caption{
+    margin: 10px 34px;
+    margin-right: 30%;
+    color: white;
+
+}
+
+
+/* Navigation Bar: Listing Styling */
+#navbar{
+    position: relative;
+    background-color: rgb(48, 44, 51);
+
+    
+}
+
+#navbar ul{
+    display: flex ;
+}
+#navbar::before{
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;   
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none ;
+    
+}
+ 
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+     
+}
+
+#navbar ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.281);
+}
+.Type2{
+    border-radius: 10px;
+
+}
